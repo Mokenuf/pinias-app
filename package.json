@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.3.13",
+    "@pinia/nuxt": "^0.5.1",
+    "nuxt": "^3.12.3",
+    "pinia": "^2.1.7",
+    "vue": "latest"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@bootstrap-vue-next/nuxt": "^0.23.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue-next": "^0.23.4",
+    "sass": "^1.77.8"
+  }
+}

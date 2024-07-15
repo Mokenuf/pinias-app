@@ -1,0 +1,1 @@
+export const baseURL = 'https://raider.io/api/v1'
